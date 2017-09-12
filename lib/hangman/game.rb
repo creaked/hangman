@@ -11,7 +11,6 @@ class Game
   
   def play
     Board.display(@health)
-    p @word
     @word_split.each {print "_ "}
     puts "\n\n"
     
